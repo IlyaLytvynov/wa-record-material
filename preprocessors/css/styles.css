@@ -1,0 +1,12 @@
+:root {
+  --main-background-color: #dbad49;
+  --text-color: #38b2b6;
+}
+
+body {
+  font: 100% Helvetica, sans-serif;
+  background-color: #dbad49;
+  color: var(--text-color);
+}
+
+/*# sourceMappingURL=styles.css.map */

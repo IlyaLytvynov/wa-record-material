@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+.page-content {
+  display: flex;
+  background-color: aqua;
+  border: 1px solid green;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly
+}
+
+.box {
+  border: 2px solid rgb(0, 251, 255);
+  background: red;
+  padding: 20px;
+  flex-basis: 100px;;
+  flex-shrink: 1;
+  /* flex-grow: 1; */
+}
+
+
+.item {
+  box-sizing: content-box;
+  border: 2px solid rgb(0, 92, 128);
+  background-color: green;
+
+}

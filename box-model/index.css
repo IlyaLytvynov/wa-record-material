@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+
+.box {
+  border: 2px solid red;
+  background: red;
+  width: 200px;
+  padding: 20px;
+  margin: 10px;
+}
+
+.box:nth-child(2) {
+  margin-top: 40px;
+}
+
+.item {
+  box-sizing: content-box;
+  border: 2px solid rgb(0, 92, 128);
+  background-color: green;
+
+}

@@ -1,0 +1,32 @@
+.log-in-form {
+  width: calc(400px * 2);
+  background: black;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.25);
+  color: #fff;
+}
+.log-in-form button {
+  background: green;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.log-in-form__row {
+  display: flex;
+  width: 100%;
+  margin: 12px 0;
+}
+.log-in-form__field {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #fff;
+  background-color: #fff;
+}
+.log-in-form__field:focus {
+  border-color: #da6602;
+}
+.log-in-form__field:hover {
+  background-color: #da6602;
+}
+
+/*# sourceMappingURL=login-form.css.map */

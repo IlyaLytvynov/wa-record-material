@@ -1,0 +1,12 @@
+@import './variables.scss';
+
+:root {
+  --main-background-color: #{$primary-color};
+  --text-color: #{$secondary-color-1};
+}
+
+body {
+  font: 100% $font-stack;
+  background-color: $primary-color;
+  color: var(--text-color);
+}

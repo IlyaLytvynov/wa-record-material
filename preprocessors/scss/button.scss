@@ -1,0 +1,7 @@
+$button-colors: red, green, grey;
+
+@each $color in $button-colors {
+  .button_#{$color} {
+    background: $color
+  }
+}

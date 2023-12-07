@@ -1,0 +1,24 @@
+.meals-search {
+  max-width: 968px;
+  margin: 0 auto;
+  border: 1px solid #efefef;
+  min-height: 100vh;
+}
+.meals-search__list {
+  display: grid;
+  grid-template-columns: repeat(var(--grid-count), 1fr);
+}
+@media screen and (max-width: 767px) {
+  .meals-search__list {
+    --grid-count: 2 ;
+  }
+}
+.meals-search__list-item {
+  max-width: 300px;
+}
+.meals-search__image {
+  max-width: 150px;
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=meals-list.css.map */

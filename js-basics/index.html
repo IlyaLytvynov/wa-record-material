@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="./scripts.js" async></script>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <form class="sign-up-form">
+      <h2 class="sign-up-form__heading">Sign-up</h2>
+      <div class="sign-up-form__row">
+        <input
+          type="text"
+          name="firtsName"
+          placeholder="First name"
+          class="sign-up-form__field"
+          required
+        />
+      </div>
+      <div class="sign-up-form__row">
+        <input
+          type="text"
+          name="lastName"
+          placeholder="Last name"
+          class="sign-up-form__field"
+          required
+        />
+      </div>
+      <div class="sign-up-form__row">
+        <input
+          type="email"
+          name="email"
+          placeholder="Email"
+          class="sign-up-form__field"
+          required
+        />
+      </div>
+      <div class="sign-up-form__row">
+        <input
+          type="password"
+          name="password"
+          placeholder="Password"
+          class="sign-up-form__field"
+        />
+      </div>
+      <div class="sign-up-form__row sign-up-form__row_align-left">
+        <div class="sign-up-form__control-container">
+          <label for="maleField" class="sign-up-form__radio">
+            <input
+              type="radio"
+              name="gender"
+              value="male"
+              class="sign-up-form__native-radio"
+              id="maleField"
+            />
+            <span class="sign-up-form__radio-input"></span>
+            <span class="sign-up-form__radio-title">Male</span>
+          </label>
+        </div>
+        <div class="sign-up-form__control-container">
+          <label for="femaleField" class="sign-up-form__radio">
+            <input
+              type="radio"
+              name="gender"
+              value="female"
+              class="sign-up-form__native-radio"
+              id="femaleField"
+            />
+            <span class="sign-up-form__radio-input"></span>
+            <span class="sign-up-form__radio-title">Female</span>
+          </label>
+        </div>
+      </div>
+
+      </div>
+
+      <button class="sign-up-form__button" type="submit">Submit</button>
+      <button class="sign-up-form__button" type="reset">Reset</button>
+    </form>
+  </div>
+</body>
+</html>

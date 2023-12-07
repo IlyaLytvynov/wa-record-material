@@ -1,0 +1,65 @@
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: 500;
+  color: var(--primary-text-color);
+}
+
+body {
+  min-height: 100vh;
+  height: 100%;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+figure,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+
+button,
+input,
+textarea {
+  font-size: 1rem;
+  outline: none;
+}
+
+
+.image-container  {
+  width: 100%;
+}
+.image-container > img {
+  width: 100%;
+  max-width: 100%
+}

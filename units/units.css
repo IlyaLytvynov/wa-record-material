@@ -1,0 +1,29 @@
+html {
+  font-size: 40px;
+}
+
+body{
+  font-size: 1em
+}
+
+.page-content {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: blue;
+  font-size: 20px;
+}
+
+.page-content > h1 {
+  font-size: 1.5rem
+}
+
+.box {
+  background-color: aquamarine;
+  width: 50%;
+  min-height: 200px;
+}
+
+.item {
+  background-color: brown;
+  color: white;
+}
